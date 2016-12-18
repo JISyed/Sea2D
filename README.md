@@ -16,3 +16,5 @@ Written using at least Xcode 7.3 or greater on macOS 10.11. Was part of grad sch
  - Floating point math utility functions
  - Fast 3D vector & matrix library as foundation for fast graphics rendering
  - Advanced 2D camera system that allows rendering on a subsection of the game window (or render on the whole window)
+
+![Demo Screenshot](https://github.com/JISyed/Sea2D/blob/master/demo_screenshot.png)
