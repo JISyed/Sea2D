@@ -1,4 +1,4 @@
-**Notice:** *This project uses 3rd party libraries and those libraries are NOT covered in this license. None of the art is covered in this license. Credit to [Kenney](http://kenney.nl/). The following components are not covered by this license:*
+**Notice:** *This project uses 3rd party libraries and those libraries are NOT covered in this license. None of the art is covered in this license. Credit to [Kenney](http://kenney.nl/) for demonstrational sprites. The following components are not covered by this license:*
 
  - *[stb_image](https://github.com/nothings/stb/blob/master/stb_image.h)*
  - *[GLFW3](http://www.glfw.org/)*
