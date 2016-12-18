@@ -1,4 +1,4 @@
-# Sea2D
+# Sea2D (Sprite Engine Apple 2D)
 A 2D Game Sprite Engine written in C++ for macOS
 
 Written using at least Xcode 7.3 or greater on macOS 10.11. Was part of grad school individual research project.
