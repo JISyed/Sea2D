@@ -1,6 +1,10 @@
+# Created by https://www.gitignore.io/api/xcode,c++
+
+### Xcode ###
 # Xcode
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+.DS_Store
 
 ## Build generated
 build/
@@ -19,42 +23,39 @@ xcuserdata/
 
 ## Other
 *.moved-aside
-*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
 
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
+### C++ ###
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+# Precompiled Headers
+*.gch
+*.pch
 
-Carthage/Build
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+# Fortran module files
+*.mod
 
-fastlane/report.xml
-fastlane/screenshots
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+!libglfw3.a
+!libyaml-cpp.a
 
-#Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
+# Executables
+*.exe
+*.out
+*.app
 
-iOSInjectionProject/
