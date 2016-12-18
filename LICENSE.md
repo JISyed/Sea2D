@@ -1,3 +1,13 @@
+**Notice:** *This project uses 3rd party libraries and those libraries are NOT covered in this license. None of the art is covered in this license. Credit to [Kenney](http://kenney.nl/). The following components are not covered by this license:*
+
+ - *[stb_image](https://github.com/nothings/stb/blob/master/stb_image.h)*
+ - *[GLFW3](http://www.glfw.org/)*
+ - *[GL3W](https://github.com/skaslev/gl3w)*
+ - *[YAML-CPP](https://github.com/jbeder/yaml-cpp)*
+
+
+---------
+
 MIT License
 
 Copyright (c) 2016 Jibran Syed
