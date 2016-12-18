@@ -3,6 +3,8 @@ A 2D Game Sprite Engine written in C++ for macOS
 
 Written using at least Xcode 7.3 or greater on macOS 10.11. Was part of grad school individual research project.
 
+**Note:** None of the art is made by me! Only used for demonstration. Art is made by [Kenney](http://kenney.nl/)
+
 ### Features
 
  - Working C++ powered graphics engine on macOS
