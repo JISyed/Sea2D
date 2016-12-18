@@ -1,0 +1,59 @@
+# YAML Sprite Collection definition for Sea2D
+#     TextureName is the name of the texture as declared in the engine's TextureRegistry
+#     ImageFrames are in indices (not names) of ImageFrames from the given texture
+#     Animated sprites have multiple ImageFrames and have additional properties
+---
+TextureName:        "Enemies"
+EnemyFrameTime:     &enFrmTim 40
+Sprites:
+    - Sprite:
+        Name:           "blocker_body"
+        ImageFrames:    [1]
+    - Sprite:
+        Name:           "blocker_mad"
+        ImageFrames:    [2]
+    - Sprite:
+        Name:           "blocker_sad"
+        ImageFrames:    [3]
+    - Sprite:
+        Name:           "fish_dead"
+        ImageFrames:    [4]
+    - Sprite:
+        Name:           "fish_swimming"
+        ImageFrames:    [5, 6]
+        Loops:          true
+        FrameTimeInMs:  *enFrmTim
+    - Sprite:
+        Name:           "fly_dead"
+        ImageFrames:    [7]
+    - Sprite:
+        Name:           "fly_flying"
+        ImageFrames:    [8, 9]
+        Loops:          true
+        FrameTimeInMs:  *enFrmTim
+    - Sprite:
+        Name:           "poker_mad"
+        ImageFrames:    [10]
+    - Sprite:
+        Name:           "poker_sad"
+        ImageFrames:    [11]
+    - Sprite:
+        Name:           "slime_dead"
+        ImageFrames:    [12]
+    - Sprite:
+        Name:           "slime_walking"
+        ImageFrames:    [13, 14]
+        Loops:          true
+        FrameTimeInMs:  *enFrmTim
+    - Sprite:
+        Name:           "snail_shell"
+        ImageFrames:    [15]
+    - Sprite:
+        Name:           "snail_shell_upside_down"
+        ImageFrames:    [16]
+    - Sprite:
+        Name:           "snail_walking"
+        ImageFrames:    [17, 18]
+        Loops:          true
+        FrameTimeInMs:  *enFrmTim
+...

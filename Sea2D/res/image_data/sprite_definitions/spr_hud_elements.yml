@@ -1,0 +1,37 @@
+# YAML Sprite Collection definition for Sea2D
+#     TextureName is the name of the texture as declared in the engine's TextureRegistry
+#     ImageFrames are in indices (not names) of ImageFrames from the given texture
+#     Animated sprites have multiple ImageFrames and have additional properties
+---
+TextureName: "KenneyHud"
+Sprites:
+    - Sprite: {Name: "ky_hud_0",                    ImageFrames: [1]}
+    - Sprite: {Name: "ky_hud_1",                    ImageFrames: [2]}
+    - Sprite: {Name: "ky_hud_2",                    ImageFrames: [3]}
+    - Sprite: {Name: "ky_hud_3",                    ImageFrames: [4]}
+    - Sprite: {Name: "ky_hud_4",                    ImageFrames: [5]}
+    - Sprite: {Name: "ky_hud_5",                    ImageFrames: [6]}
+    - Sprite: {Name: "ky_hud_6",                    ImageFrames: [7]}
+    - Sprite: {Name: "ky_hud_7",                    ImageFrames: [8]}
+    - Sprite: {Name: "ky_hud_8",                    ImageFrames: [9]}
+    - Sprite: {Name: "ky_hud_9",                    ImageFrames: [10]}
+    - Sprite: {Name: "ky_hud_coins",                ImageFrames: [11]}
+    - Sprite: {Name: "ky_hud_heartEmpty",           ImageFrames: [12]}
+    - Sprite: {Name: "ky_hud_heartFull",            ImageFrames: [13]}
+    - Sprite: {Name: "ky_hud_heartHalf",            ImageFrames: [14]}
+    - Sprite: {Name: "ky_hud_keyBlue",              ImageFrames: [15]}
+    - Sprite: {Name: "ky_hud_keyBlue_disabled",     ImageFrames: [16]}
+    - Sprite: {Name: "ky_hud_keyGreem_disabled",    ImageFrames: [17]}
+    - Sprite: {Name: "ky_hud_keyGreen",             ImageFrames: [18]}
+    - Sprite: {Name: "ky_hud_keyRed",               ImageFrames: [19]}
+    - Sprite: {Name: "ky_hud_keyRed_disabled",      ImageFrames: [20]}
+    - Sprite: {Name: "ky_hud_keyYellow",            ImageFrames: [21]}
+    - Sprite: {Name: "ky_hud_keyYellow_disabled",   ImageFrames: [22]}
+    - Sprite: {Name: "ky_hud_p1",                   ImageFrames: [23]}
+    - Sprite: {Name: "ky_hud_p1Alt",                ImageFrames: [24]}
+    - Sprite: {Name: "ky_hud_p2",                   ImageFrames: [25]}
+    - Sprite: {Name: "ky_hud_p2Alt",                ImageFrames: [26]}
+    - Sprite: {Name: "ky_hud_p3",                   ImageFrames: [27]}
+    - Sprite: {Name: "ky_hud_p3Alt",                ImageFrames: [28]}
+    - Sprite: {Name: "ky_hud_x",                    ImageFrames: [29]}
+...

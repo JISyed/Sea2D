@@ -1,0 +1,96 @@
+# YAML Font definition for Sea2D
+#     TextureName is the name of the texture as declared in the engine's TextureRegistry
+#     TextureName is also the name of the font
+#     ImageFrame is the index (not name) of an ImageFrame from the given texture
+---
+TextureName: "FirstBitmapFont"
+Glyphs:
+    - Glyph: {Character: ' ',  ImageFrame: 95}
+    - Glyph: {Character: '!',  ImageFrame: 1}
+    - Glyph: {Character: '#',  ImageFrame: 3}
+    - Glyph: {Character: '$',  ImageFrame: 4}
+    - Glyph: {Character: '(',  ImageFrame: 8}
+    - Glyph: {Character: ')',  ImageFrame: 9}
+    - Glyph: {Character: '*',  ImageFrame: 10}
+    - Glyph: {Character: '+',  ImageFrame: 11}
+    - Glyph: {Character: ',',  ImageFrame: 12}
+    - Glyph: {Character: '-',  ImageFrame: 13}
+    - Glyph: {Character: '.',  ImageFrame: 14}
+    - Glyph: {Character: '0',  ImageFrame: 16}
+    - Glyph: {Character: '1',  ImageFrame: 17}
+    - Glyph: {Character: '2',  ImageFrame: 18}
+    - Glyph: {Character: '3',  ImageFrame: 19}
+    - Glyph: {Character: '4',  ImageFrame: 20}
+    - Glyph: {Character: '5',  ImageFrame: 21}
+    - Glyph: {Character: '6',  ImageFrame: 22}
+    - Glyph: {Character: '7',  ImageFrame: 23}
+    - Glyph: {Character: '8',  ImageFrame: 24}
+    - Glyph: {Character: '9',  ImageFrame: 25}
+    - Glyph: {Character: ':',  ImageFrame: 26}
+    - Glyph: {Character: ';',  ImageFrame: 27}
+    - Glyph: {Character: '<',  ImageFrame: 28}
+    - Glyph: {Character: '=',  ImageFrame: 29}
+    - Glyph: {Character: '>',  ImageFrame: 30}
+    - Glyph: {Character: '?',  ImageFrame: 31}
+    - Glyph: {Character: '@',  ImageFrame: 32}
+    - Glyph: {Character: 'A',  ImageFrame: 33}
+    - Glyph: {Character: 'B',  ImageFrame: 34}
+    - Glyph: {Character: 'C',  ImageFrame: 35}
+    - Glyph: {Character: 'D',  ImageFrame: 36}
+    - Glyph: {Character: 'E',  ImageFrame: 37}
+    - Glyph: {Character: 'F',  ImageFrame: 38}
+    - Glyph: {Character: 'G',  ImageFrame: 39}
+    - Glyph: {Character: 'H',  ImageFrame: 40}
+    - Glyph: {Character: 'I',  ImageFrame: 41}
+    - Glyph: {Character: 'J',  ImageFrame: 42}
+    - Glyph: {Character: 'K',  ImageFrame: 43}
+    - Glyph: {Character: 'L',  ImageFrame: 44}
+    - Glyph: {Character: 'M',  ImageFrame: 45}
+    - Glyph: {Character: 'N',  ImageFrame: 46}
+    - Glyph: {Character: 'O',  ImageFrame: 47}
+    - Glyph: {Character: 'P',  ImageFrame: 48}
+    - Glyph: {Character: 'Q',  ImageFrame: 49}
+    - Glyph: {Character: 'R',  ImageFrame: 50}
+    - Glyph: {Character: 'S',  ImageFrame: 51}
+    - Glyph: {Character: 'T',  ImageFrame: 52}
+    - Glyph: {Character: 'U',  ImageFrame: 53}
+    - Glyph: {Character: 'V',  ImageFrame: 54}
+    - Glyph: {Character: 'W',  ImageFrame: 55}
+    - Glyph: {Character: 'X',  ImageFrame: 56}
+    - Glyph: {Character: 'Y',  ImageFrame: 57}
+    - Glyph: {Character: 'Z',  ImageFrame: 58}
+    - Glyph: {Character: '[',  ImageFrame: 59}
+    - Glyph: {Character: ']',  ImageFrame: 61}
+    - Glyph: {Character: '^',  ImageFrame: 62}
+    - Glyph: {Character: '_',  ImageFrame: 63}
+    - Glyph: {Character: 'a',  ImageFrame: 65}
+    - Glyph: {Character: 'b',  ImageFrame: 66}
+    - Glyph: {Character: 'c',  ImageFrame: 67}
+    - Glyph: {Character: 'd',  ImageFrame: 68}
+    - Glyph: {Character: 'e',  ImageFrame: 69}
+    - Glyph: {Character: 'f',  ImageFrame: 70}
+    - Glyph: {Character: 'g',  ImageFrame: 71}
+    - Glyph: {Character: 'h',  ImageFrame: 72}
+    - Glyph: {Character: 'i',  ImageFrame: 73}
+    - Glyph: {Character: 'j',  ImageFrame: 74}
+    - Glyph: {Character: 'k',  ImageFrame: 75}
+    - Glyph: {Character: 'l',  ImageFrame: 76}
+    - Glyph: {Character: 'm',  ImageFrame: 77}
+    - Glyph: {Character: 'n',  ImageFrame: 78}
+    - Glyph: {Character: 'o',  ImageFrame: 79}
+    - Glyph: {Character: 'p',  ImageFrame: 80}
+    - Glyph: {Character: 'q',  ImageFrame: 81}
+    - Glyph: {Character: 'r',  ImageFrame: 82}
+    - Glyph: {Character: 's',  ImageFrame: 83}
+    - Glyph: {Character: 't',  ImageFrame: 84}
+    - Glyph: {Character: 'u',  ImageFrame: 85}
+    - Glyph: {Character: 'v',  ImageFrame: 86}
+    - Glyph: {Character: 'w',  ImageFrame: 87}
+    - Glyph: {Character: 'x',  ImageFrame: 88}
+    - Glyph: {Character: 'y',  ImageFrame: 89}
+    - Glyph: {Character: 'z',  ImageFrame: 90}
+    - Glyph: {Character: '{',  ImageFrame: 91}
+    - Glyph: {Character: '|',  ImageFrame: 92}
+    - Glyph: {Character: '}',  ImageFrame: 93}
+    - Glyph: {Character: '~',  ImageFrame: 94}
+...

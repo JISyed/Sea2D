@@ -1,0 +1,24 @@
+# YAML Sprite Sheet definition for Sea2D
+#     ImageFrame IDs are derived from the order of this list, starting at 1
+#     Rect is defined as [xOrigin, yOrigin, width, height], with Y-origin at top
+---
+ImageFrames:
+    - {Rect: [203, 0, 51, 51],   Name: "blockerBody"}           # 1
+    - {Rect: [136, 66, 51, 51],  Name: "blockerMad"}            # 2
+    - {Rect: [188, 66, 51, 51],  Name: "blockerSad"}            # 3
+    - {Rect: [0, 69, 66, 42],    Name: "fishDead"}              # 4
+    - {Rect: [76, 0, 66, 42],    Name: "fishSwim1"}             # 5
+    - {Rect: [73, 43, 62, 43],   Name: "fishSwim2"}             # 6
+    - {Rect: [143, 0, 59, 33],   Name: "flyDead"}               # 7
+    - {Rect: [0, 32, 72, 36],    Name: "flyFly1"}               # 8
+    - {Rect: [0, 0, 75, 31],     Name: "flyFly2"}               # 9
+    - {Rect: [255, 0, 48, 146],  Name: "pokerMad"}              # 10
+    - {Rect: [304, 0, 48, 146],  Name: "pokerSad"}              # 11
+    - {Rect: [0, 112, 59, 12],   Name: "slimeDead"}             # 12
+    - {Rect: [52, 125, 50, 28],  Name: "slimeWalk1"}            # 13
+    - {Rect: [0, 125, 51, 26],   Name: "slimeWalk2"}            # 14
+    - {Rect: [103, 119, 44, 30], Name: "snailShell"}            # 15
+    - {Rect: [148, 118, 44, 30], Name: "snailShell_upsidedown"} # 16
+    - {Rect: [143, 34, 54, 31],  Name: "snailWalk1"}            # 17
+    - {Rect: [67, 87, 57, 31],   Name: "snailWalk2"}            # 18
+...

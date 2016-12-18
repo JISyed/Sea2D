@@ -1,0 +1,28 @@
+# YAML Sprite Collection definition for Sea2D
+#     TextureName is the name of the texture as declared in the engine's TextureRegistry
+#     ImageFrames are in indices (not names) of ImageFrames from the given texture
+#     Animated sprites have multiple ImageFrames and have additional properties
+---
+TextureName: "GreenAlien"
+Sprites:
+    - Sprite:
+        Name:           "green_alien_walk"
+        ImageFrames:    [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+        Loops:          true
+        FrameTimeInMs:  20
+    - Sprite:
+        Name:           "green_alien_stand"
+        ImageFrames:    [5]
+    - Sprite:
+        Name:           "green_alien_jump"
+        ImageFrames:    [4]
+    - Sprite:
+        Name:           "green_alien_hurt"
+        ImageFrames:    [3]
+    - Sprite:
+        Name:           "green_alien_front"
+        ImageFrames:    [2]
+    - Sprite:
+        Name:           "green_alien_duck"
+        ImageFrames:    [1]
+...

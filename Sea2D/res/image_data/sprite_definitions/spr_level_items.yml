@@ -1,0 +1,29 @@
+# YAML Sprite Collection definition for Sea2D
+#     TextureName is the name of the texture as declared in the engine's TextureRegistry
+#     ImageFrames are in indices (not names) of ImageFrames from the given texture
+#     Animated sprites have multiple ImageFrames and have additional properties
+---
+TextureName: "KenneyPlatfomer"
+Sprites:
+    - Sprite: {Name: "item_btn_blue",           ImageFrames: [2]}
+    - Sprite: {Name: "item_btn_blue_pressed",   ImageFrames: [3]}
+    - Sprite: {Name: "item_btn_green",          ImageFrames: [4]}
+    - Sprite: {Name: "item_btn_green_pressed",  ImageFrames: [5]}
+    - Sprite: {Name: "item_btn_red",            ImageFrames: [6]}
+    - Sprite: {Name: "item_btn_red_pressed",    ImageFrames: [7]}
+    - Sprite: {Name: "item_btn_yellow",         ImageFrames: [8]}
+    - Sprite: {Name: "item_btn_yellow_pressed", ImageFrames: [9]}
+    - Sprite: {Name: "item_coin_gold",          ImageFrames: [13]}
+    - Sprite: {Name: "item_coin_silver",        ImageFrames: [14]}
+    - Sprite: {Name: "item_coin_bronze",        ImageFrames: [12]}
+    - Sprite: {Name: "item_fireball",           ImageFrames: [15]}
+    - Sprite: {Name: "item_key_blue",           ImageFrames: [16]}
+    - Sprite: {Name: "item_key_green",          ImageFrames: [17]}
+    - Sprite: {Name: "item_key_red",            ImageFrames: [18]}
+    - Sprite: {Name: "item_key_yellow",         ImageFrames: [19]}
+    - Sprite: {Name: "particle_brown_brick_1",  ImageFrames: [22]}
+    - Sprite: {Name: "particle_brown_brick_2",  ImageFrames: [23]}
+    - Sprite: {Name: "particle_grey_brick_1",   ImageFrames: [24]}
+    - Sprite: {Name: "particle_grey_brick_2",   ImageFrames: [25]}
+    - Sprite: {Name: "item_star",               ImageFrames: [31]}
+...

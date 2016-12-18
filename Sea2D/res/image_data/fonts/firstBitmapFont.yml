@@ -1,0 +1,101 @@
+# YAML Sprite Sheet definition for Sea2D
+#     ImageFrame IDs are derived from the order of this list, starting at 1
+#     Rect is defined as [xOrigin, yOrigin, width, height], with Y-origin at top
+---
+ImageFrames:
+    - {Rect: [  8,   4,  9, 68], Name: "firstFont_bang"}    # 1
+    - {Rect: [ 21,   4, 19, 68], Name: "firstFont_quotes"}   # 2
+    - {Rect: [ 44,   4, 36, 68], Name: "firstFont_hash"}    # 3
+    - {Rect: [ 84,   4, 33, 68], Name: "firstFont_dollar"}    # 4
+    - {Rect: [121,   4, 52, 68], Name: "firstFont_percent"}   # 5
+    - {Rect: [177,   4, 41, 68], Name: "firstFont_ampersand"}  # 6
+    - {Rect: [222,   4,  9, 68], Name: "firstFont_apostrophe"}  # 7
+    - {Rect: [235,   4, 17, 68], Name: "firstFont_left_parenthesis"}  # 8
+    - {Rect: [256,   4, 18, 68], Name: "firstFont_right_parenthesis"}  # 9
+    - {Rect: [278,   4, 23, 68], Name: "firstFont_asteriks"}  # 10
+    - {Rect: [305,   4, 32, 68], Name: "firstFont_plus"}  # 11
+    - {Rect: [341,   4,  9, 68], Name: "firstFont_comma"}  # 12
+    - {Rect: [354,   4, 19, 68], Name: "firstFont_minus"}  # 13
+    - {Rect: [377,   4,  9, 68], Name: "firstFont_period"}  # 14
+    - {Rect: [390,   4, 20, 68], Name: "firstFont_slash"}  # 15
+    - {Rect: [414,   0, 32, 68], Name: "firstFont_0"}  # 16
+    - {Rect: [450,   0, 19, 68], Name: "firstFont_1"}  # 17
+    - {Rect: [473,   0, 33, 68], Name: "firstFont_2"}  # 18
+    - {Rect: [  4,  70, 32, 68], Name: "firstFont_3"}  # 19
+    - {Rect: [ 40,  70, 34, 68], Name: "firstFont_4"}  # 20
+    - {Rect: [ 78,  70, 33, 68], Name: "firstFont_5"}  # 21
+    - {Rect: [115,  70, 33, 68], Name: "firstFont_6"}  # 22
+    - {Rect: [152,  70, 32, 68], Name: "firstFont_7"}  # 23
+    - {Rect: [188,  70, 33, 68], Name: "firstFont_8"}  # 24
+    - {Rect: [225,  70, 32, 68], Name: "firstFont_9"}  # 25
+    - {Rect: [261,  73,  9, 68], Name: "firstFont_colon"}  # 26
+    - {Rect: [274,  73,  9, 68], Name: "firstFont_semicolon"}  # 27
+    - {Rect: [287,  73, 32, 68], Name: "firstFont_less_than"}  # 28
+    - {Rect: [323,  73, 32, 68], Name: "firstFont_equals"}  # 29
+    - {Rect: [359,  73, 32, 68], Name: "firstFont_greater_than"}  # 30
+    - {Rect: [395,  73, 32, 68], Name: "firstFont_question"}  # 31
+    - {Rect: [431,  73, 62, 68], Name: "firstFont_at"}  # 32
+    - {Rect: [  4, 139, 46, 64], Name: "firstFont_A"}  # 33
+    - {Rect: [ 54, 139, 37, 64], Name: "firstFont_B"}  # 34
+    - {Rect: [ 95, 139, 43, 64], Name: "firstFont_C"}  # 35
+    - {Rect: [142, 139, 40, 64], Name: "firstFont_D"}  # 36
+    - {Rect: [186, 139, 36, 64], Name: "firstFont_E"}  # 37
+    - {Rect: [226, 139, 33, 64], Name: "firstFont_F"}  # 38
+    - {Rect: [263, 139, 45, 64], Name: "firstFont_G"}  # 39
+    - {Rect: [312, 139, 38, 64], Name: "firstFont_H"}  # 40
+    - {Rect: [354, 139,  8, 64], Name: "firstFont_I"}  # 41
+    - {Rect: [366, 139, 28, 64], Name: "firstFont_J"}  # 42
+    - {Rect: [398, 139, 40, 64], Name: "firstFont_K"}  # 43
+    - {Rect: [442, 139, 31, 64], Name: "firstFont_L"}  # 44
+    - {Rect: [  4, 197, 46, 64], Name: "firstFont_M"}  # 45
+    - {Rect: [ 54, 197, 38, 64], Name: "firstFont_N"}  # 46
+    - {Rect: [ 96, 197, 46, 64], Name: "firstFont_O"}  # 47
+    - {Rect: [146, 197, 37, 64], Name: "firstFont_P"}  # 48
+    - {Rect: [187, 197, 47, 64], Name: "firstFont_Q"}  # 49
+    - {Rect: [238, 197, 43, 64], Name: "firstFont_R"}  # 50
+    - {Rect: [285, 197, 39, 64], Name: "firstFont_S"}  # 51
+    - {Rect: [328, 197, 38, 64], Name: "firstFont_T"}  # 52
+    - {Rect: [370, 197, 38, 64], Name: "firstFont_U"}  # 53
+    - {Rect: [412, 197, 45, 64], Name: "firstFont_V"}  # 54
+    - {Rect: [  4, 258, 61, 64], Name: "firstFont_W"}  # 55
+    - {Rect: [ 69, 258, 45, 64], Name: "firstFont_X"}  # 56
+    - {Rect: [118, 258, 45, 64], Name: "firstFont_Y"}  # 57
+    - {Rect: [167, 258, 38, 64], Name: "firstFont_Z"}  # 58
+    - {Rect: [209, 259, 15, 68], Name: "firstFont_left_bracket"}  # 59
+    - {Rect: [228, 259, 20, 68], Name: "firstFont_back_slash"}  # 60
+    - {Rect: [252, 259, 15, 68], Name: "firstFont_right_bracket"}  # 61
+    - {Rect: [271, 259, 30, 68], Name: "firstFont_carot"}  # 62
+    - {Rect: [305, 259, 39, 68], Name: "firstFont_underscore"}  # 63
+    - {Rect: [348, 259, 14, 68], Name: "firstFont_accent_mark"}  # 64
+    - {Rect: [366, 260, 33, 67], Name: "firstFont_a"}  # 65
+    - {Rect: [403, 260, 31, 67], Name: "firstFont_b"}  # 66
+    - {Rect: [438, 260, 31, 67], Name: "firstFont_c"}  # 67
+    - {Rect: [473, 260, 31, 67], Name: "firstFont_d"}  # 68
+    - {Rect: [  4, 329, 33, 67], Name: "firstFont_e"}  # 69
+    - {Rect: [ 41, 329, 22, 67], Name: "firstFont_f"}  # 70
+    - {Rect: [ 67, 329, 32, 67], Name: "firstFont_g"}  # 71
+    - {Rect: [103, 329, 29, 67], Name: "firstFont_h"}  # 72
+    - {Rect: [136, 329,  8, 67], Name: "firstFont_i"}  # 73
+    - {Rect: [148, 329, 15, 67], Name: "firstFont_j"}  # 74
+    - {Rect: [167, 329, 30, 67], Name: "firstFont_k"}  # 75
+    - {Rect: [201, 329,  8, 67], Name: "firstFont_l"}  # 76
+    - {Rect: [213, 329, 47, 67], Name: "firstFont_m"}  # 77
+    - {Rect: [264, 329, 29, 67], Name: "firstFont_n"}  # 78
+    - {Rect: [297, 329, 33, 67], Name: "firstFont_o"}  # 79
+    - {Rect: [334, 329, 31, 67], Name: "firstFont_p"}  # 80
+    - {Rect: [369, 329, 31, 67], Name: "firstFont_q"}  # 81
+    - {Rect: [404, 329, 20, 67], Name: "firstFont_r"}  # 82
+    - {Rect: [428, 329, 30, 67], Name: "firstFont_s"}  # 83
+    - {Rect: [462, 329, 19, 67], Name: "firstFont_t"}  # 84
+    - {Rect: [  4, 398, 29, 67], Name: "firstFont_u"}  # 85
+    - {Rect: [ 37, 398, 33, 67], Name: "firstFont_v"}  # 86
+    - {Rect: [ 74, 398, 48, 67], Name: "firstFont_w"}  # 87
+    - {Rect: [126, 398, 34, 67], Name: "firstFont_x"}  # 88
+    - {Rect: [164, 398, 33, 67], Name: "firstFont_y"}  # 89
+    - {Rect: [201, 398, 32, 67], Name: "firstFont_z"}  # 90
+    - {Rect: [237, 398, 20, 67], Name: "firstFont_left_braces"}  # 91
+    - {Rect: [261, 398,  7, 67], Name: "firstFont_pipe"}  # 92
+    - {Rect: [272, 398, 20, 67], Name: "firstFont_right_braces"}  # 93
+    - {Rect: [296, 398, 42, 67], Name: "firstFont_tilde"}  # 94
+    - {Rect: [366, 398, 20, 67], Name: "firstFont_space"}  # 95
+...
